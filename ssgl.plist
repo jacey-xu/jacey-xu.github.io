@@ -14,7 +14,7 @@
      <key>url</key>
 
 <!--发布改动1 http或者https链接的ipa文件地址 -->
-     <string>http://47.122.9.74:8072/appPublish/20231211/5a8908261297d40ffc50a0bb16df6257.ipa</string>
+     <string>http://47.122.9.74:8072/appPublish/__UNI__4D8B604__20231213162512.ipa</string>
     </dict>
     <dict>
      <key>kind</key>
@@ -46,7 +46,7 @@
     <key>bundle-version</key>
 
 <!--发布改动2  版本号 -->
-    <string>1.0.2</string>
+    <string>1.0.3</string>
     <key>kind</key>
     <string>software</string>
     <key>title</key>
