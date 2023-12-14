@@ -1,2 +1,35 @@
-<p>test 23.12.12</p>
-xj.julee100.com
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iOS app下载</title>
+</head>
+<style>
+    button{
+        width: 10rem;
+        height: 4rem;
+        font-size: 1.2rem;
+        display: inline-block;
+        border: 1px solid #19B495;
+        background: #1abc9c;
+        color: #fff;
+        border-radius: 3px!important;
+        font-weight: 400;
+        text-shadow: none;
+
+    }
+</style>
+<body>
+<div style="width:100%;height:80vh;display: flex;justify-content: center;align-items: center;">
+    <button onclick="iosDown()">iOS app下载</button>
+</div>
+</body>
+<script>
+    function iosDown(){
+        window.location.href='itms-services:///?action=download-manifest&url=https://xj.julee100.com/ssgl.plist';
+    }
+</script>
+</html>
